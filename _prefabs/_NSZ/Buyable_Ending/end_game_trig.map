@@ -1,0 +1,44 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{CD39C348-8764-11E6-8FCC-1C1B0D04B2D7}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+guid "{15CD598A-5E4A-11E6-B7CD-1C1B0D04B2D7}"
+"classname" "trigger_use"
+"targetname" "end_game_trig"
+"_color" "0.3 0.5 0.8"
+"cursorhint" "HINT_ACTIVATE"
+// brush 0
+{
+ guid "{15CD5989-5E4A-11E6-B7CD-1C1B0D04B2D7}"
+ ( 8 4 0 ) ( -24 4 0 ) ( -24 -28 0 ) trigger 64 64 -96 -100 0 0 lightmap_gray 16384 16384 -96 -100 0 0
+ ( -32 -28 104 ) ( -32 4 104 ) ( 0 4 104 ) trigger 64 64 -104 -100 0 0 lightmap_gray 16384 16384 -104 -100 0 0
+ ( -16 -4 16 ) ( 16 -4 16 ) ( 16 -4 0 ) trigger 64 64 -88 0 0 0 lightmap_gray 16384 16384 -88 0 0 0
+ ( 16 -28 16 ) ( 16 4 16 ) ( 16 4 0 ) trigger 64 64 100 0 0 0 lightmap_gray 16384 16384 100 0 0 0
+ ( 16 4 80 ) ( -16 4 80 ) ( -16 4 64 ) trigger 64 64 -88 -64 0 0 lightmap_gray 16384 16384 -88 -64 0 0
+ ( -24 28 80 ) ( -24 -4 80 ) ( -24 -4 64 ) trigger 64 64 140 -64 0 0 lightmap_gray 16384 16384 140 -64 0 0
+}
+}

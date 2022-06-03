@@ -1,0 +1,144 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{480A9C3D-8801-11E6-A121-0026832BA76F}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+guid "{A8A13800-97A4-4F53-B9B7-01350E06390E}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "64 -312 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 2
+{
+guid "{F12FBF3A-79FC-4FD0-9AF4-B8F9DD02790D}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "48 -336 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 3
+{
+guid "{6B0AF3DE-2473-4682-AA59-3945BDC953E6}"
+"classname" "script_struct"
+"angles" "0 90 0"
+"origin" "0 -384 28"
+"radius" "2000"
+"script_int" "2000"
+"script_noteworthy" "start_room"
+"script_string" "zclassic_start_room zcleansed_start_room zgrief_start_room"
+"target" "initial_spawn_points"
+"targetname" "player_respawn_point"
+"_color" "1 0 0"
+}
+// entity 4
+{
+guid "{34C62E04-C09F-41CD-A34A-B72AFB6B93A4}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "24 -360 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 5
+{
+guid "{05CBD318-AB8D-4E55-88EA-D4CA779A8121}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "24 -312 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 6
+{
+guid "{468AD9EE-8135-4F3F-9546-8B023CE991B6}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-64 -312 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 7
+{
+guid "{A6A9A904-BFFD-42A2-AE20-F91CC83517A8}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-24 -312 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 8
+{
+guid "{6234A6E2-98CA-4053-A6D5-E86D86C86386}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-24 -360 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 9
+{
+guid "{1F8D4239-20C6-47AD-97EC-2119B45EE9E5}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-48 -336 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}

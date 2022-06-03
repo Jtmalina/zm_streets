@@ -1,0 +1,43 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+"start_zone" flags 
+// entity 0
+{
+guid "{ADE4F29D-98D9-11E6-A93D-0026832BA76F}"
+"classname" "worldspawn"
+"fsi" ""
+"vol_pri_fix" "5"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+guid "{873FACB7-157E-47F2-BCCC-B02EE2CE0BBA}"
+layer "start_zone"
+"classname" "info_volume"
+"script_noteworthy" "player_volume"
+"target" "start_zone_spawners"
+"targetname" "start_zone"
+// brush 0
+{
+ guid "{AAF553FB-30CF-4DCB-A526-1034D72F0A3E}"
+layer "start_zone"
+ ( -16 104 -232 ) ( -64 104 -232 ) ( -64 56 -232 ) volume 64 64 -64 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+ ( 152 56 624 ) ( 152 104 624 ) ( 200 104 624 ) volume 64 64 152 0 0 0 lightmap_gray 16384 16384 152 0 0 0
+ ( -296 -824 -24 ) ( -248 -824 -24 ) ( -248 -824 -96 ) volume 64 64 -296 96 0 0 lightmap_gray 16384 16384 -296 96 0 0
+ ( 136 72 -32 ) ( 136 120 -32 ) ( 136 120 -104 ) volume 64 64 16 104 0 0 lightmap_gray 16384 16384 16 104 0 0
+ ( 216 272 -40 ) ( 168 272 -40 ) ( 168 272 -112 ) volume 64 64 168 112 0 0 lightmap_gray 16384 16384 168 112 0 0
+ ( -832 -136 40 ) ( -832 -184 40 ) ( -832 -184 -32 ) volume 64 64 -240 32 0 0 lightmap_gray 16384 16384 -240 32 0 0
+}
+}
