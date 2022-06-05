@@ -1,0 +1,20 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_streets.d3dbsp
+gfx_map,maps/zm/zm_streets.d3dbsp
+
+// Audio
+sound,zm_streets
+
+scriptparsetree,scripts/zm/zm_streets.gsc
+scriptparsetree,scripts/zm/zm_streets.csc
+
+// NSZ Buyable Ending
+scriptparsetree,scripts/_NSZ/nsz_buyable_ending.gsc
+	
+	
