@@ -4,13 +4,6 @@ Map file can be compiled using Black Ops 3 Mod Tools which is only obtained from
 ## To install 
 Open mod tools and create a new zombie map called zm_streets
 
-Once files are generated:
-
-Place zm_streets.map in \Call of Duty Black Ops III\map_source\zm
-
-Place zm_streets.gsc in \Call of Duty Black Ops III\usermaps\zm_streets\scripts\zm
-
-Copy the prefab folder to \Call of Duty Black Ops III\map_source
-When prompted don't overwrite any files, just copy the new files.
+Once files are generated copy the three folders 'map_source', 'share', and 'usermaps' to your root directory for Call of Duty Black Ops 3. This is located where your steam downloads are pointed too.
 
 Compile zm_streets in mod tools
