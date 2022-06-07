@@ -19,7 +19,7 @@ Compile zm_streets in mod tools
 - 10 perk limit
 - Dogs
 
-## Note map is a work in progress 
+## Note - map is a work in progress 
 This map has had many years coming starting my freshman year of college where my harddrive got corrupted in 2017 along with my map files.
 
 Recovered what I could. Although all models were missing I decided to bring the map back. In 2020-2021 with all the extra time and a new PC, I booted up the map and copied what textures were left, then I remade it from memory. By the end of 2020 I had the map back up to where I lost it from corruption. I am now slowly but surely making progress to finish the map I had in mind.
